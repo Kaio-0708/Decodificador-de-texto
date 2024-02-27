@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Decodificador de texto</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body class="light-theme">
+       <header class="topo">
+        <img src="./assets/logo.png" class="logo">
+        <button class="theme-toggle" onclick="toggleTheme()">Tema: claro/escuro</button>
+    </header>
+   
+       <main class="main">
+       <section>
+            <form action>
+                <textarea class="textarea" cols="41" rows="8" placeholder="Digite seu texto"></textarea><br><br>
+            </form>
+            <div>
+                <h6 class="alerta"> Apenas letras minúsculas e sem acento.</h6>
+            </div>
+            <div class="botoes">
+                <button class="botoes__cript" onclick="botoesCript()"> Criptografar</button>
+                <button class="botoes__descript" onclick="botoesDecript()"> Descriptografar</button>
+            </div>
+        </section>
+       
+        <section>
+            <textarea class="mensagem" cols="50" rows="50"></textarea>
+            <p class="frase"> Nenhuma mensagem <br>encontrada</p> <br>
+            <p class="frase__segunda"> Digite um texto que você deseja <br>Criptografar ou Descriptografar</p>
+            <button class="copy"> Copiar</button>
+        </section>
+       </main>
+       
+       <footer class="rodape"> &copy; Copyright @2024 Todos os direitos reservados a Kaio V.</footer>
+       
+       <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    background: var(--cor--sextaria);
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+:root{
+    --cor--principal:#0A3871;
+    --cor--secundaria: #D8DFE8;
+    --cor--terciaria:#495057;
+    --cor--quartenaria: #343A40;
+    --cor--quinaria:#FFFFFF;
+    --cor--sextaria:#E5E5E5;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    margin-left: 10px;
+    padding-top: 10px;
+    width:2%;
+}
+
+.light-theme {
+    --cor--principal: #0A3871;
+    --cor--secundaria: #D8DFE8;
+    --cor--terciaria: #495057;
+    --cor--quartenaria: #343A40;
+    --cor--quinaria: #FFFFFF;
+    --cor--sextaria: #E5E5E5;
+}
+
+.dark-theme {
+    --cor--principal: #495057; 
+    --cor--secundaria: #343A40; 
+    --cor--terciaria: black; 
+    --cor--quartenaria: #161A30; 
+    --cor--quinaria: #31304D;
+    --cor--sextaria: #61677A;
+}
+
+.theme-toggle{
+    border-radius: 20px;  
+    cursor: pointer; 
+    border: 2px solid var(--cor--quartenaria);
+}
+
+.theme-toggle.dark{
+    background-color: var(--cor--terciaria); 
+    color: var(--cor--quinaria);
+    border-color: var(--cor--quinaria);
+}
+
+.main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.textarea{
+    border: none;
+    color: var(--cor--principal);
+    font-size: 32px;
+    margin-top: 70px;
+}
+
+::placeholder { color: var(--cor--principal); }
+  .textarea:focus {
+      outline: none;
+    }
+
+.alerta{
+    color:var(--cor--terciaria);
+    font-size: 10px;
+    padding: 0 0 0 15px;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 18px;
+    gap: 24px;
+}
+
+.botoes__cript {
+    background-color: var(--cor--principal);
+    border: 1px solid var(--cor--principal);
+    border-radius: 24px;
+    color: var(--cor--quinaria);
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    gap: 8px;
+}
+
+.botoes__descript {
+    background: var(--cor--secundaria);
+    border: 1px solid var(--cor--principal);
+    border-radius: 24px;
+    color: var(--cor--principal);
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+    gap:8px;
+}
+
+section{
+    position: relative;
+}
+
+.mensagem {
+    background: var(--cor--quinaria);
+    background-image: url("../assets/boneco.png");
+    background-repeat: no-repeat;
+    background-position: 50% 100px;
+    background-size: 50%;
+    border: none;
+    border-radius: 24px;
+    color: var(--cor--principal);
+    margin-left: 98px;
+    padding-left: 20px;
+    position: fixed;
+}
+
+.mensagem:focus {
+    outline: none;
+}
+
+.frase{
+    font-size: 24px;
+    line-height: 28.8px;
+    align-items: center;
+    color: var(--cor--quartenaria);
+    font-weight: 700;
+    position: fixed;
+    bottom: 200px;
+    left: 73%;
+    background-color: var(--cor--quinaria);
+    gap: 16px;
+}
+
+.frase__segunda{
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    color: var(--cor--terciaria);
+    position: fixed;
+    bottom: 140px;
+    left: 73%;
+    background-color: var(--cor--quinaria);
+}
+
+.copy {
+    border: 1px solid var(--cor--principal);
+    border-radius: 24px;
+    color: var(--cor--principal);
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    bottom: 0.1px;
+    position: absolute;
+    width: 336px;
+}
+
+.rodape{
+    text-align: center;
+    color: var(--cor--principal);
+    font-size: 10px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* Estilos para tablet */
+    .textarea {
+      font-size: 20px; 
+    }
+    
+    .mensagem {
+      font-size: 18px;
+      margin-left: 20px; 
+      padding-left: 10px; 
+    }
+    
+    .copy {
+      margin-left: 20px; 
+      width: auto;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    /* Estilos para dispositivos móveis */
+    .textarea {
+      font-size: 16px; 
+    }
+    
+    .mensagem {
+      font-size: 16px; 
+      margin-left: 10px; 
+      padding-left: 5px; 
+    }
+    
+    .copy {
+      margin-left: 10px; 
+      width: auto; 
+    }
+  }
