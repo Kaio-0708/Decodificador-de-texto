@@ -194,7 +194,7 @@ section{
      .mensagem {
       font-size: 13px; 
       margin-top: 30px;
-      width: calc(100% - 40px);
+      width: 100%;
       margin-bottom: 10px;
       background-image: none;
       padding: 16px;
@@ -202,8 +202,6 @@ section{
     }
 
     .frase, .frase__segunda{
-      position: fixed;
-      left: 15%;
       text-align: center;
     {
     
@@ -243,12 +241,11 @@ section{
     .mensagem {
       font-size: 13px; 
       margin-top: 30px;
-      margin-left: -20;
+      margin-left: -5;
       width: calc(100% - 20px);
       margin-bottom: 50px;
       background-image: none;
-      padding: 32px;
-      gap: 32px;
+      padding: 5px;
     }
 
     .frase, .frase__segunda{
