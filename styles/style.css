@@ -192,16 +192,17 @@ section{
     }
     
     .mensagem {
-      font-size: 18px;
+      font-size: 25px;
       margin-left: 5px; 
       margin-top: 5px;
       width: 100%; 
+      heigth: 100vh;
     }
     
     .copy {
       margin-top: 20px; 
       width: calc(100% - 40px);
-      position: relative; 
+      position: fixed; 
       bottom: 0;
     }
   }
@@ -225,7 +226,7 @@ section{
     }
     
     .copy {
-      margin-left: 10px; 
+      margin-left: 7px; 
       width: calc(100% - 10px);
       position: fixed; 
       bottom: 0; 
