@@ -243,11 +243,12 @@ section{
     .mensagem {
       font-size: 13px; 
       margin-top: 30px;
-      width: calc(100% - 40px);
-      margin-bottom: 10px;
+      margin-left: -20;
+      width: calc(100% - 20px);
+      margin-bottom: 50px;
       background-image: none;
-      padding: 16px;
-      gap: 16px;
+      padding: 32px;
+      gap: 32px;
     }
 
     .frase, .frase__segunda{
@@ -270,11 +271,10 @@ section{
     }
       
     .copy {
-      margin-left: 0px; 
-      width: calc(100% - 40px);
-      position: static; 
+      margin-left: -20px; 
+      width: calc(100% - 10px);
+      position: fixed; 
       bottom: 0; 
-      padding: 16px;
-      margin-top: 10px;
+      padding: 24px;
     }
   }
