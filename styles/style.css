@@ -220,10 +220,11 @@ section{
     
     .mensagem {
       font-size: 13px; 
-      margin-left: 0;
+      margin-left: -10;
       margin-top: 20px;
       width: calc(100% - 20px);
       margin-bottom: 10px;
+      background-image: none;
     }
 
     .frase, .frase__segunda{
