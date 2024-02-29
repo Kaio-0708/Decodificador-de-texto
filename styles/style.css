@@ -203,6 +203,7 @@ section{
 
     .frase, .frase__segunda{
       text-align: center;
+      position: relative;
     {
     
     .botoes{
