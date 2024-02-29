@@ -220,17 +220,24 @@ section{
     }
       
     .copy {
-      margin-left: 0px; 
+      margin-left: 5px; 
       width: calc(100% - 40px);
-      position: static; 
-      bottom: 0; 
+      position: relative; 
+      bottom: 5px; 
       padding: 16px;
       margin-top: 10px;
+      text-align: center;
     }
   }
   
   @media only screen and (max-width: 480px) {
     /* Estilos para dispositivos móveis */
+      .main {
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+      
       .logo{
       width:6%;
     }
@@ -271,7 +278,8 @@ section{
       display:flex;
       flex-direction: column;
       width: calc(100% - 10px);
-      position: fixed; 
+      position: relative;
+      text-align: center;
       bottom: 5px; 
       padding: 10px;
     }
