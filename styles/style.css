@@ -227,9 +227,9 @@ section{
     }
 
     .frase, .frase__segunda{
-      position: relative;
-      left: 20%;
-      align-items: center;
+      position: fixed;
+      left: 15%;
+      text-align: center;
     {
     
     .botoes{
