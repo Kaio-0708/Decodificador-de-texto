@@ -194,13 +194,15 @@ section{
     .mensagem {
       font-size: 18px;
       margin-left: 5px; 
-      margin-top: 20px;
+      margin-top: 5px;
       width: 100%; 
     }
     
     .copy {
       margin-top: 20px; 
       width: calc(100% - 40px);
+      position: relative; 
+      bottom: 0;
     }
   }
   
