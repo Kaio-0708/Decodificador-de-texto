@@ -226,11 +226,11 @@ section{
       margin-bottom: 10px;
     }
 
-    .frase, frase__segunda{
+    .frase, .frase__segunda{
       position: relative;
       left: 20%;
       align-items: center;
-      {
+    {
     
     .botoes{
       display: flex;
