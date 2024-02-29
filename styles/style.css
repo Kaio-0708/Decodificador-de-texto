@@ -211,7 +211,7 @@ section{
   @media only screen and (max-width: 480px) {
     /* Estilos para dispositivos móveis */
       .logo{
-      width:5%;
+      width:6%;
     }
     
       .textarea {
@@ -220,13 +220,12 @@ section{
     
     .mensagem {
       font-size: 13px; 
-      margin-left: -10;
-      margin-top: 20px;
-      width: calc(100% - 20px);
+      margin-top: 30px;
+      width: calc(100% - 40px);
       margin-bottom: 10px;
       background-image: none;
-      padding: 32px;
-      gap: 32px;
+      padding: 16px;
+      gap: 16px;
     }
 
     .frase, .frase__segunda{
@@ -236,6 +235,7 @@ section{
     {
     
     .botoes{
+      display:flex;
       flex-direction: column;
       align-items: center; 
       margin-bottom: 20px;
@@ -244,15 +244,15 @@ section{
 
     .botoes__cript,
     .botoes__descript {
-      width: calc(100% - 20px); 
-      margin-top: 10px;
+      width: calc(100% - 40px); 
     }
       
     .copy {
       margin-left: 0px; 
-      width: calc(100% - 10px);
-      position: fixed; 
+      width: calc(100% - 40px);
+      position: static; 
       bottom: 0; 
-      padding: 24px;
+      padding: 16px;
+      margin-top: 10px;
     }
   }
