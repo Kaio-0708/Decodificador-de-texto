@@ -267,10 +267,13 @@ section{
       margin-bottom: 30px;
       background-image: none;
       padding: 10px;
+      position: relative;
     }
 
     .frase, .frase__segunda{
       position: relative;
+      bottom: unset;
+      left: unset;
       text-align: center;
     {
         
@@ -280,8 +283,9 @@ section{
       width: calc(100% - 10px);
       position: relative;
       text-align: center;
-      bottom: 5px; 
       padding: 10px;
+      bottom: unset;
+      margin-left: 10px;
     }
 
     .rodape {
