@@ -259,7 +259,14 @@ section{
       width: calc(100% - 40px);
       gap: 8px;
     }
-       
+
+    section {
+        margin-top: 20px;
+        width: calc(100% - 40px);
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+      
     .mensagem {
       font-size: 13px; 
       margin-top: 30px;
