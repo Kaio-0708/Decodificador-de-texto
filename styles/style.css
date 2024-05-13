@@ -233,6 +233,7 @@ section{
     
     .frase, .frase__segunda{
         left: 65%;
+        position: relative;
     }
 
     .rodape{
