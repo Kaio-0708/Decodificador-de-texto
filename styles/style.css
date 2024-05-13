@@ -192,6 +192,7 @@ section{
         position: relative;
         margin: auto;
         padding: auto;
+        width: auto;
     }
 
     .botoes__cript, .botoes__descript{
