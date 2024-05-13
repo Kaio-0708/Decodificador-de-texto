@@ -179,6 +179,8 @@ section{
     .main{
         widht: auto;
         margin: auto;
+        flex-direction: column;
+        align-items: center;
     }
 
     .textarea{
