@@ -175,4 +175,21 @@ section{
     font-size: 10px;
 }
 
+@media only screen and (max-width: 480px) {
+    .main {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
 
+@media only screen and (min-width: 600px) {
+    .main {
+        max-width: 600px;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .main {
+        max-width: 1600px;
+    }
+}
