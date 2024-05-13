@@ -235,12 +235,12 @@ section{
     }
     
     .frase, .frase__segunda{
-        margin-left: 10%;
+        margin-right: 10%;
     }
 
     .rodape{
         font-size: 12px;
         bottom: 5px;
-        margin-left: 15%;
+        margin-right: 15%;
     }
 }
