@@ -226,6 +226,18 @@ section{
 
 @media only screen and (min-width: 1600px) {
     .main {
-        max-width: 1600px;
+        heigth: auto;
+        margin-bottom: 0;
+    }
+
+    .frase, .frase__segunda{
+        position: relative;
+        margin-left: 98px;
+        padding-left: 20px;
+    }
+
+    .rodape{
+        font-size: 12px;
+        bottom: 5px;
     }
 }
