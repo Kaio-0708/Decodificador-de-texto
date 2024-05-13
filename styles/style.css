@@ -185,21 +185,27 @@ section{
 
     .textarea{
         font-size: 20px;
+        margin-right: 5%;
     }
 
     .mensagem{
         position: relative;
+        margin: auto;
+        padding: auto;
     }
 
     .botoes__cript, .botoes__descript{
         width: auto;
         height: auto;
+        margin-left: 0;
     }
     
     .frase, .frase__segunda{
         position : relative;
         left: 0;
         font-size: 15px;
+        margin-right: 5%;
+        text-align: center;
     }
 
     .copy{
