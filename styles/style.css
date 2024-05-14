@@ -177,7 +177,7 @@ section{
 
 @media only screen and (max-width: 480px) {
     .main{
-        widht: auto;
+        widht: 100%;
         margin: 0;
         flex-direction: column;
         align-items: center;
@@ -192,6 +192,7 @@ section{
         position: relative;
         margin-left: 0;
         padding-left: 0;
+        margin-top: 5%;
         width: 100%;
     }
 
@@ -200,7 +201,7 @@ section{
     }
     
     .botoes{
-        gap: 10px;
+        gap: 20px;
     }
     
     .botoes__cript, .botoes__descript{
