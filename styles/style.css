@@ -190,16 +190,24 @@ section{
 
     .mensagem{
         position: relative;
-        margin: 0;
-        padding: 0;
+        margin-left: 0;
+        padding-left: 0;
         width: 100%;
     }
 
+    .alerta{
+        text-align: center;
+    }
+    
+    .botoes{
+        gap: 10px;
+    }
+    
     .botoes__cript, .botoes__descript{
         width: auto;
         height: auto;
-        margin-left: 18%;
-        padding: 2%;
+        margin-left: 16%;
+        padding: 0%;
     }
     
     .frase, .frase__segunda{
