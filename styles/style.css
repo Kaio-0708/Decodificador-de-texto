@@ -270,15 +270,15 @@ section{
     .botoes__cript{
         width: auto;
         height: auto;
-        margin-left: 15%;
-        padding: 5%;
+        margin-left: 20%;
+        padding: 4%;
     }
 
     .botoes__descript{
         width: auto;
         height: auto;
         margin-left: 8%;
-        padding: 5%;
+        padding: 4%;
     }
     
     .frase, .frase__segunda{
