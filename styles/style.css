@@ -185,20 +185,21 @@ section{
 
     .textarea{
         font-size: 20px;
-        margin-right: 5%;
+        margin-right: 0%;
     }
 
     .mensagem{
         position: relative;
         margin: auto;
         padding: auto;
-        width: auto;
+        width: 100%;
     }
 
     .botoes__cript, .botoes__descript{
         width: auto;
         height: auto;
-        margin-left: 0;
+        margin-left: 10%;
+        padding: 5%;
     }
     
     .frase, .frase__segunda{
@@ -212,6 +213,8 @@ section{
     .copy{
         width: auto;
         height: auto;
+        bottom: 20%;
+        padding: 5%;
     }
 
     .rodape{
