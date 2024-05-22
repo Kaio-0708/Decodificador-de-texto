@@ -1,20 +1,11 @@
-Em parceria com Alura Latam e Oracle, estou empolgado em apresentar um projeto incrível desenvolvido como parte do Challenge ONE: Construa um Decodificador de Texto com JavaScript do programa ONE-Oracle Next Education! Além do mais gostaria de deixar notório minha ampla gratidão por participar e aprender conhecimentos singulares para o decorrer do meu desenvolvimento como programador.
+In partnership with Alura Latam and Oracle, I'm excited to present an incredible project developed as part of Challenge ONE: Build a Text Decoder with JavaScript from the ONE-Oracle Next Education program! Furthermore, I would like to express my gratitude for participating and learning unique knowledge throughout my development as a programmer.
 
- Este projeto utiliza as seguintes "chaves" de criptografia:
-"e" para "enter"
-"i" para "imes"
-"a" para "ai"
-"o" para "ober"
-"u" para "ufat"
+This project uses the following encryption "keys": "e" for "enter" "i" for "imes" "a" for "ai" "o" for "ober" "u" for "ufat"
 
- Requisitos do projeto:
-Funciona apenas com letras minúsculas.
-Não são utilizadas letras com acentos nem caracteres especiais.
-Permite converter uma palavra para a versão criptografada e retornar uma palavra criptografada para a versão original.
+Project requirements: Works with lowercase letters only. No letters with accents or special characters are used. Allows you to convert a word to the encrypted version and return an encrypted word to the original version.
 
-Este projeto exemplar demonstra o poder e a criatividade, destacando minhas habilidades em HTML, CSS e JavaScript.
- 
-Confira uma amostra do projeto em ação:
+This exemplary project demonstrates power and creativity, highlighting my skills in HTML, CSS and JavaScript.
 
+Check out a sample of the project in action:
 
-Site: https://decodificadorde-texto.netlify.app/
+Website: https://decodorde-texto.netlify.app/
