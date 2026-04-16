@@ -36,7 +36,6 @@ This project demonstrates my ability to implement creative solutions using web t
 
 Kaio Vitor - [GitHub](https://github.com/Kaio-0708)
 
-
 Check out a sample of the project in action:
 
 Website: [https://decodorde-texto.netlify.app/](https://decodificadorde-texto.netlify.app/)
